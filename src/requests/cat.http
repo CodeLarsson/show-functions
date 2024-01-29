@@ -1,0 +1,26 @@
+
+@url=http://localhost:7071/api
+
+###
+
+POST {{url}}/cats
+Content-Type: application/json
+
+{
+    "name": "Alvar",
+    "breed": "Sphynx",
+    "favouriteFood": "Tuna steak",
+    "accepsBellyRubs": true,
+    "age": 5,
+    "image": "",
+    "description": "Cuddly little goblin",
+    "adopted": false
+}
+
+###
+
+GET {{url}}/cats/15d37b4a-9ad0-4799-8263-d1a31867e1b3
+
+###
+
+GET {{url}}/cats
